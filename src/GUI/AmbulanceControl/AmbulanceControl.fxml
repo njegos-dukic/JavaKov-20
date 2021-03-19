@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane maxHeight="170.0" maxWidth="400.0" minHeight="170.0" minWidth="400.0" prefHeight="170.0" prefWidth="400.0" style="-fx-background-color: #2b2d2f; -fx-border-color: #ffffff; -fx-border-width: 3; -fx-border-radius: 7; -fx-background-radius: 7;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.AmbulanceControl.AmbulanceControlController">
+   <children>
+      <ScrollPane layoutX="29.0" layoutY="30.0" maxHeight="110.0" maxWidth="250.0" minHeight="110.0" minWidth="250.0" prefHeight="110.0" prefWidth="250.0" style="-fx-border-color: #ffffff; -fx-border-width: 3; -fx-border-radius: 5; -fx-background-radius: 10;">
+         <content>
+            <VBox fx:id="vbox" minHeight="110.0" minWidth="250.0" spacing="5.0" style="-fx-background-radius: 10; -fx-border-radius: 10;" />
+         </content>
+      </ScrollPane>
+      <Button layoutX="310.0" layoutY="100.0" maxHeight="30.0" maxWidth="60.0" minHeight="30.0" minWidth="60.0" mnemonicParsing="false" onAction="#zatvori" prefHeight="30.0" prefWidth="60.0" text="ZAVRŠI" />
+      <Button fx:id="dugmeNova" layoutX="310.0" layoutY="40.0" maxHeight="30.0" maxWidth="60.0" minHeight="30.0" minWidth="60.0" mnemonicParsing="false" onAction="#nova" prefHeight="30.0" prefWidth="60.0" text="NOVA" />
+   </children>
+</Pane>

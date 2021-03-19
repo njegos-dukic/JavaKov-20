@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="220.0" maxWidth="300.0" minHeight="220.0" minWidth="300.0" prefHeight="220.0" prefWidth="300.0" style="-fx-background-color: #2b2d2f; -fx-border-color: #ffffff; -fx-border-radius: 7; -fx-background-radius: 7; -fx-border-width: 4;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Statistics.StatistikaController">
+   <children>
+      <TableView fx:id="tabela" layoutX="30.0" layoutY="30.0" maxHeight="130.0" maxWidth="240.0" minHeight="130.0" minWidth="240.0" prefHeight="130.0" prefWidth="240.0" />
+      <Button fx:id="exportuj" layoutX="58.0" layoutY="168.0" mnemonicParsing="false" onAction="#export" prefHeight="25.0" prefWidth="88.0" text="EKSPORTUJ" />
+      <Button fx:id="zavrsi" layoutX="164.0" layoutY="168.0" mnemonicParsing="false" onAction="#kraj" prefHeight="25.0" prefWidth="88.0" text="ZAVRŠI" />
+   </children>
+</Pane>
